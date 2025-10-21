@@ -1,0 +1,38 @@
+//28.4810738,-81.5074748 = Orlando, FL
+
+// 28.4672616, -81.4687557 = Royal Pacific Convention Center
+
+// 41.0990419,-75.3936965 Kalahari Resort, PA
+
+            //51.520211,-0.0963613 = Barbican Centre
+            .ToConstant(new LatLongLocation(51.5202, -0.0963));
+
+            //51.4768563,-0.0030751 = Royal Observatory
+            .ToConstant(new LatLongLocation(51.4768,-0.0030));
+
+            //45.6382281,-122.7013602 = Vancouver, WA, USA
+            .ToConstant(new LatLongLocation(45.6382, -122.7013));
+
+
+        //45.6382,-122.7013 = Vancouver, WA, USA
+        //28.4810,-81.5074 = Orlando, FL
+        //28.4672,-81.4687 = Royal Pacific Hotel
+
+
+        //45.6382,-122.7013 = Vancouver, WA, USA
+        //38.6530,-90.4084 = St. Louis, MO
+        //38.7698,-90.5050 = Embassy Suites, St. Charles, MO
+
+        //45.6382,-122.7013 = Vancouver, WA, USA
+        //41.0990,-75.3936 Kalahari Resort, PA
+
+Sunset Tomorrow: 11/1/2025 6:14:04 PM
+
+Initializing Controller
+Sunset Tomorrow: 11/1/2025 6:14:04 PM
+Device 5: On
+11/2/2025 10:44:54 AM - Device: 5, Command: On
+Device 5: Off
+11/2/2025 10:44:54 AM - Device: 5, Command: Off
+Initialization Complete
+
