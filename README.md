@@ -62,49 +62,33 @@ The following connects the topics with the sample code.
 
 ### Basics 
 **Constructor Injection**  
-* [PeopleController.cs](/DemoCode/PeopleViewer/Controllers/PeopleController.cs) - Web application controller
-* [PeopleViewerWindow.xaml.cs](/DemoCode/PeopleViewer.Desktop/PeopleViewerWindow.xaml.cs) - Desktop application main window
-* [PeopleViewModel.cs](/DemoCode/PeopleViewer.Presentation/PeopleViewModel.cs) - Desktop application view model
+* [PeopleViewer/PeopleController.cs](/DemoCode/PeopleViewer/Controllers/PeopleController.cs) - Web application controller
+* [PeopleViewer.Desktop/PeopleViewerWindow.xaml.cs](/DemoCode/PeopleViewer.Desktop/PeopleViewerWindow.xaml.cs) - Desktop application main window
+* [PeopleViewer.Presentation/PeopleViewModel.cs](/DemoCode/PeopleViewer.Presentation/PeopleViewModel.cs) - Desktop application view model
 
 **Object Composition / Composition Root**  
-* [Program.cs](/DemoCode/PeopleViewer/Program.cs) - Web application program file (no DI container)
-* [App.xaml.cs](/DemoCode/PeopleViewer.Desktop/App.xaml.cs) - Desktop application main window (no DI container)
-* [App.xaml.cs](/DemoCode/PeopleViewer.Desktop.Ninject/App.xaml.cs) - Desktop application main window (using Ninject)
+* [PeopleViewer/Program.cs](/DemoCode/PeopleViewer/Program.cs) - Web application program file (no DI container)
+* [PeopleViewer.Desktop/App.xaml.cs](/DemoCode/PeopleViewer.Desktop/App.xaml.cs) - Desktop application main window (no DI container)
+* [PeopleViewer.Desktop.Ninject/App.xaml.cs](/DemoCode/PeopleViewer.Desktop.Ninject/App.xaml.cs) - Desktop application main window (using Ninject)
 
 **Decorators**
-* [CachingReader.cs](/DemoCode/PersonDataReader.Decorators/CachingReader.cs) - Local cache decorator  
-
-**Unit Testing**
-* [PeopleViewModelTests.cs](/DemoCode/PeopleViewer.Presentation.Tests/PeopleViewModelTests.cs) - View Model unit tests (constructor injection)  
-
-**Dependency Injection Containers**  
-* [Program.cs](/DemoCode/PeopleViewer/Program.cs) - Web application (using ASP.NET Core DI container)
-* [App.xaml.cs](/DemoCode/PeopleViewer.Desktop.Ninject/App.xaml.cs) - Desktop application main window (using Ninject)
-* [App.xaml.cs](/DemoCode/PeopleViewer.Desktop.Autofac/App.xaml.cs) - Desktop application main window (using Autofac)
-
-**Property Injection**  
-* [CSVReader.cs](/DemoCode/PersonDataReader.CSV/CSVReader.cs) - CSV File data reader  
-* [CSVReaderTests.cs](/DemoCode/PersonDataReader.CSV.Test/CSVReaderTests.cs) - CSV Reader unit tests (property injection)  
-
-
-### Deeper Dive / Advanced Topics  
-
-**Property Injection**  
-* [CSVReader.cs](/DemoCode/PersonDataReader.CSV/CSVReader.cs) - CSV File data reader  
-
-**Method Injection**  
-* [PeopleController.cs](./DemoCode/PeopleViewer/Controllers/PeopleController.cs) - Method injection in controller action  
-* [Program.cs](/DemoCode/PeopleViewer/Program.cs) - Configuration for method injection  
-
-**Decorators**
-* [CachingReader.cs](/DemoCode/PersonDataReader.Decorators/CachingReader.cs) - Local cache decorator  
-* [ExceptionLoggingReader.cs](/DemoCode/PersonDataReader.Decorators/ExceptionLoggingReader.cs) - Exception logging decorator  
-* [RetryReader.cs](/DemoCode/PersonDataReader..Decorators/RetryReader.cs) - Retry decorator  
-* [Program.cs](/DemoCode/PeopleViewer/Program.cs) - Web application composition (with decorators)  
-* [App.xaml.cs](/DemoCode/PeopleViewer.Desktop/App.xaml.cs) - Desktop application composition (with decorators)  
+* [PersonDataReader.Decorators/CachingReader.cs](/DemoCode/PersonDataReader.Decorators/CachingReader.cs) - Local cache decorator  
+* [PersonDataReader.Decorators/RetryReader.cs](/DemoCode/PersonDataReader.Decorators/RetryReader.cs) - Retry decorator  
+* [PersonDataReader.Decorators/ExceptionLoggingReader.cs](/DemoCode/PersonDataReader.Decorators/ExceptionLoggingReader.cs) - Exception logging decorator  
+* [PeopleViewer/Program.cs](/DemoCode/PeopleViewer/Program.cs) - Web application composition (with decorators)  
 
 **Proxy / IDisposable**  
-* [SQLReaderProxy.cs](/DemoCode/PersonDataReader.SQL/SQLReaderProxy.cs) - Proxy to wrap IDisposable SQL Reader  
+* [PersonDataReader.SQL/SQLReaderProxy.cs](/DemoCode/PersonDataReader.SQL/SQLReaderProxy.cs) - Proxy to wrap IDisposable SQL Reader  
+
+**Unit Testing**
+* [PeopleViewer.Presentation.Tests/PeopleViewModelTests.cs](/DemoCode/PeopleViewer.Presentation.Tests/PeopleViewModelTests.cs) - View Model unit tests (constructor injection)  
+* [PersonDataReader.CSV.Test/CSVReaderTests.cs](/DemoCode/PersonDataReader.CSV.Test/CSVReaderTests.cs) - CSV reader unit tests (property injection)  
+
+**Dependency Injection Containers**  
+* [PeopleViewer/Program.cs](/DemoCode/PeopleViewer/Program.cs) - Web application (using ASP.NET Core DI container)
+* [PeopleViewer.Desktop.Ninject/App.xaml.cs](/DemoCode/PeopleViewer.Desktop.Ninject/App.xaml.cs) - Desktop application main window (using Ninject)
+* [PeopleViewer.Desktop.Autofac/App.xaml.cs](/DemoCode/PeopleViewer.Desktop.Autofac/App.xaml.cs) - Desktop application main window (using Autofac)  
+* [PeopleViewer.Desktop.GenericHost/App.xaml.cs](/DemoCode/PeopleViewer.Desktop.GenericHost/App.xaml.cs) - Desktop application main window (using Generic Host / ASP.NET Core container)  
 
 ---
 
