@@ -99,11 +99,6 @@ The following connects the topics with the sample code.
 ---
 
 ## Resources
-**Other Resources**  
-* Steve Smith: [New is Glue](https://ardalis.com/new-is-glue/)  
-* Shawn Wildermuth: [ASP.NET Core Dependency Injection](https://blog.wildermuth.com/2016/08/07/ASP-NET-Core-Dependency-Injection/)  
-specifically "Understanding Scope Lifetime"  
-
 **DI Patterns**  
 * [Dependency Injection: The Property Injection Pattern](http://jeremybytes.blogspot.com/2014/01/dependency-injection-property-injection.html)  
 * [Property Injection: Simple vs. Safe](http://jeremybytes.blogspot.com/2015/06/property-injection-simple-vs-safe.html)  
@@ -124,6 +119,11 @@ specifically "Understanding Scope Lifetime"
 **Related Topics**
 * Session: [DI Why? Getting a Grip on Dependency Injection](http://www.jeremybytes.com/Demos.aspx#DI)
 * Pluralsight: [Getting Started with Dependency Injection in .NET](https://app.pluralsight.com/library/courses/using-dependency-injection-on-ramp/table-of-contents) 
+
+**Other Resources**  
+* Steve Smith: [New is Glue](https://ardalis.com/new-is-glue/)  
+* Shawn Wildermuth: [ASP.NET Core Dependency Injection](https://blog.wildermuth.com/2016/08/07/ASP-NET-Core-Dependency-Injection/)  
+specifically "Understanding Scope Lifetime"  
 
 More information at [http://www.jeremybytes.com](http://www.jeremybytes.com)  
 
