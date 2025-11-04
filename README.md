@@ -80,6 +80,12 @@ The following connects the topics with the sample code.
 **Proxy / IDisposable**  
 * [PersonDataReader.SQL/SQLReaderProxy.cs](/DemoCode/PersonDataReader.SQL/SQLReaderProxy.cs) - Proxy to wrap IDisposable SQL Reader  
 
+**Late Binding**  
+* [WithConfiguration: PeopleViewer/ReaderFactory.cs](/LateBindingSamples/LateBinding-WithConfiguration/PeopleViewer/ReaderFactory.cs) - Creates data reader based on configuration  
+* [WithConfiguration: PeopleViewer/App.config](/LateBindingSamples/LateBinding-WithConfiguration/PeopleViewer/App.config) - Configuration File  
+* [NoConfiguration: PeopleViewer/ReaderFactory.cs](/LateBindingSamples/LateBinding-NoConfiguration/PeopleViewer/ReaderFactory.cs) - Creates data reader based on files in a particular folder (no configuration)  
+* [PeopleViewer/ReaderLoadContext.cs](/LateBindingSamples/LateBinding-WithConfiguration/PeopleViewer/ReaderLoadContext.cs) - The context for dynamically loading assemblies (same for both configuration and no configuration samples)  
+
 **Unit Testing**
 * [PeopleViewer.Presentation.Tests/PeopleViewModelTests.cs](/DemoCode/PeopleViewer.Presentation.Tests/PeopleViewModelTests.cs) - View Model unit tests (constructor injection)  
 * [PersonDataReader.CSV.Test/CSVReaderTests.cs](/DemoCode/PersonDataReader.CSV.Test/CSVReaderTests.cs) - CSV reader unit tests (property injection)  
