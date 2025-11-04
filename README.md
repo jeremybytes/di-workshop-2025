@@ -99,6 +99,10 @@ The following connects the topics with the sample code.
 ---
 
 ## Resources
+**Other Resources**  
+* Steve Smith: [New is Glue](https://ardalis.com/new-is-glue/)  
+* Shawn Wildermuth: [ASP.NET Core Dependency Injection](https://blog.wildermuth.com/2016/08/07/ASP-NET-Core-Dependency-Injection/)  
+specifically "Understanding Scope Lifetime"  
 
 **DI Patterns**  
 * [Dependency Injection: The Property Injection Pattern](http://jeremybytes.blogspot.com/2014/01/dependency-injection-property-injection.html)  
